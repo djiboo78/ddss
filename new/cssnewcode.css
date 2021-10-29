@@ -1,0 +1,99 @@
+
+
+@font-face {
+    font-family: 'creepy_bloodregular';
+    src: url('font/webfontkit-20211025-081327/creepy_blood-webfont.woff') format('woff2'),
+         url('font/webfontkit-20211025-081327/creepy_blood-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+    font-family: 'creepy_bloodregular';
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    
+    background-size:cover;
+    background-color:red;
+    
+     
+    }
+header {
+    display:flex;
+    background-image:url('image/dark.png');
+    width: 100%;
+    height:400PX;
+    background-size:cover;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    z-index: 2;
+   
+    }
+
+.nav {
+    display:flex;
+    width: 1000px;
+    height: 80px;
+    justify-content:flex-end;
+    background-color:orangered;
+    align-items:center;
+}
+.home:hover {
+    font-size: 50PX;
+    margin-inline-start: auto;
+            }    
+.nav li     {
+    margin-right: 30px;
+    list-style-type:none;
+            }
+a           {
+    font-size:60px;
+    color:black;
+    -webkit-text-stroke:1px;
+    -webkit-text-stroke-color:red;
+}    
+.separ:hover {
+
+    border-color: black;
+
+  }
+
+footer {
+    display:flex;
+    background-image: url("/image/pngwing.com.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    order: 3;
+}  
+.dd    { 
+    display: flex;
+    justify-content: flex-end;  
+  margin-right: 2%;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+    }
+    .separ {
+        color:black;
+        border-color: black;
+        width: 3PX;
+        height: 70%;
+    }
+
+    
+    
+
+
+
+
+
+
+    
